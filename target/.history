@@ -12,3 +12,14 @@ exit
 reload
 coverage
 test
+reload
+~compile
+test
+coverage
+test
+compile
+test
+exit
+test
+reload
+test

@@ -4,7 +4,7 @@
 		module="scala-train_2.11"
 		revision="2.0.0"
 		status="integration"
-		publication="20171022143712"
+		publication="20171022202045"
 	>
 		<description>
 		scala-train
@@ -36,5 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.11" rev="1.1.0" conf="provided->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.1.0" conf="provided->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.5" conf="test->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.12.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

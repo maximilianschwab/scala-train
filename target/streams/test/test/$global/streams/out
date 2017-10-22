@@ -1,0 +1,14 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(TrainSpec, org.scalatest.tools.Framework$$anon$1@20bbc78b, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(de.heikoseeberger.scalatrain.TimeSpec, org.scalatest.tools.Framework$$anon$1@20bbc78b, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0mScalaCheck[0m
+[0m[[0minfo[0m] [0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 319 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 9[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 9, Failed 0, Errors 0, Passed 9[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	de.heikoseeberger.scalatrain.TimeSpec[0m
+[0m[[0mdebug[0m] [0m	TrainSpec[0m

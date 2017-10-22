@@ -30,8 +30,8 @@
 </span>6 <span style=''>
 </span>7 <span style=''>  //Methoden
 </span>8 <span style=''>  def -(that: Time): Int = {
-</span>9 <span style=''>    def asMinutes(time: Time) = </span><span style='background: #F0ADAD'>time.hours * 60 + time.minutes</span><span style=''>
-</span>10 <span style=''>    </span><span style='background: #F0ADAD'>asMinutes(this) - asMinutes(that)</span><span style=''>
+</span>9 <span style=''>    def asMinutes(time: Time) = </span><span style='background: #AEF1AE'>time.hours * 60 + time.minutes</span><span style=''>
+</span>10 <span style=''>    </span><span style='background: #AEF1AE'>asMinutes(this) - asMinutes(that)</span><span style=''>
 </span>11 <span style=''>  }
 </span>12 <span style=''>}
 </span>13 <span style=''>
@@ -39,7 +39,7 @@
 </span>15 <span style=''>object Time {
 </span>16 <span style=''>  //Fabrikmethode (wÃ¤re in Java als static Methode zu definieren)
 </span>17 <span style=''>  def fromMinutes(minutes: Int): Time = {
-</span>18 <span style=''>   </span><span style='background: #F0ADAD'> new Time(minutes / 60, minutes % 60</span><span style=''>)
+</span>18 <span style=''>   </span><span style='background: #AEF1AE'> new Time(minutes / 60, minutes % 60</span><span style=''>)
 </span>19 <span style=''>  }
 </span>20 <span style=''>}
 </span></pre>
@@ -71,7 +71,7 @@
         <td>
           de.heikoseeberger.scalatrain.Time.minutes
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           time.minutes
         </td>
       </tr><tr>
@@ -92,7 +92,7 @@
         <td>
           &lt;nosymbol&gt;
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           60
         </td>
       </tr><tr>
@@ -113,7 +113,7 @@
         <td>
           scala.Int.+
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           time.hours.*(60).+(time.minutes)
         </td>
       </tr><tr>
@@ -134,7 +134,7 @@
         <td>
           scala.Int.-
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           asMinutes(this).-(asMinutes(that))
         </td>
       </tr><tr>
@@ -155,7 +155,7 @@
         <td>
           de.heikoseeberger.scalatrain.Time.asMinutes
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           asMinutes(that)
         </td>
       </tr><tr>
@@ -176,7 +176,7 @@
         <td>
           de.heikoseeberger.scalatrain.Time.&lt;init&gt;
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           new Time(minutes./(60), minutes.%(60))
         </td>
       </tr><tr>
@@ -197,7 +197,7 @@
         <td>
           scala.Int.%
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           minutes.%(60)
         </td>
       </tr><tr>
@@ -218,7 +218,7 @@
         <td>
           scala.Int./
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           minutes./(60)
         </td>
       </tr>

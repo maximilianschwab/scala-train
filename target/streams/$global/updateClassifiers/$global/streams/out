@@ -1,3 +1,7 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-library:(2.11.7, 2.11.4)
+[warn]  * org.scala-lang:scala-reflect:(2.11.2, 2.11.7)
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.1, 1.0.4)
 [debug] :: resolving dependencies :: de.heikoseeberger#scala-train$sources_2.11;2.0.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6,7 +10,7 @@
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@402b7ae3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c2d4c6d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -40,8 +44,82 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;2.2.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@baf015f
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.5
+[debug] 	found org.scalatest#scalatest_2.11;2.2.5 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bf21132
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
+[debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
+[debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6be6e268
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->default(compile)]
+[info] Resolving org.scalacheck#scalacheck_2.11;1.12.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42333e75
+[debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.12.4
+[debug] 	found org.scalacheck#scalacheck_2.11;1.12.4 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[info] Resolving org.scala-sbt#test-interface;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33ef9d82
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [provided]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->default(compile)]
+[info] Resolving org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17015bcd
+[debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-runtime_2.11;1.1.0
+[debug] 	found org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.4 {provided=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.4
+[debug] 	found org.scala-lang#scala-library;2.11.4 in sbt-chain
+[debug] 	[2.11.4] org.scala-lang#scala-library;2.11.4
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->default(compile)]
+[info] Resolving org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47fefb6e
+[debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.11;1.1.0
+[debug] 	found org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61ad661
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->master]
 [debug] resolving dependencies for configuration 'optional'
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
@@ -53,10 +131,39 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [optional]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [provided]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile-internal->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile-internal->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile-internal->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [compile-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [compile-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [runtime-internal]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [runtime]
@@ -91,12 +198,78 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [optional]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [provided]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [provided->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [provided->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [provided->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [provided->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test-internal->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test-internal->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test-internal->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -156,12 +329,29 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.4!scalacheck_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.4!scalacheck_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scoverage#scalac-scoverage-runtime_2.11;1.1.0!scalac-scoverage-runtime_2.11.jar
+[debug] 	[NOT REQUIRED] org.scoverage#scalac-scoverage-runtime_2.11;1.1.0!scalac-scoverage-runtime_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scoverage#scalac-scoverage-plugin_2.11;1.1.0!scalac-scoverage-plugin_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scoverage#scalac-scoverage-plugin_2.11;1.1.0!scalac-scoverage-plugin_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 215ms :: artifacts dl 21ms
+[debug] :: resolution report :: resolve 168ms :: artifacts dl 19ms
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 compile produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-compile.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 runtime produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-runtime.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 test produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-test.xml
@@ -175,4 +365,4 @@
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 docs produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-docs.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 pom produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-pom.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 scala-tool produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-scala-tool.xml
-[debug] 	resolve done (215ms resolve - 21ms download)
+[debug] 	resolve done (168ms resolve - 19ms download)

@@ -727,12 +727,39 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scala-lang#scala-library;2.10.5 [default->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scala-lang#scala-library;2.10.5 [default->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scala-lang#scala-library;2.10.5 [default->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scoverage#sbt-scoverage;1.1.0 [default->default(compile)]
+[info] Resolving org.scoverage#sbt-scoverage;1.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scoverage#sbt-scoverage;1.1.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scoverage#sbt-scoverage;1.1.0
+[debug] 	found org.scoverage#sbt-scoverage;1.1.0 in sbt-chain
+[debug] 	[1.1.0] org.scoverage#sbt-scoverage;1.1.0
+[debug] == resolving dependencies org.scoverage#sbt-scoverage;1.1.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [compile->default(compile)]
+[info] Resolving org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.10;1.1.0
+[debug] 	found org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 in sbt-chain
+[debug] == resolving dependencies org.scoverage#sbt-scoverage;1.1.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [compile->runtime]
+[debug] == resolving dependencies org.scoverage#sbt-scoverage;1.1.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [compile->compile]
+[debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.1.0->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies org.scoverage#sbt-scoverage;1.1.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sbt_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar
 [debug] 	[NOT REQUIRED] org.scalariform#sbt-scalariform;1.5.0!sbt-scalariform.jar
 [debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scoverage#sbt-scoverage;1.1.0!sbt-scoverage.jar
+[debug] 	[NOT REQUIRED] org.scoverage#scalac-scoverage-plugin_2.10;1.1.0!scalac-scoverage-plugin_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar
@@ -785,9 +812,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 2241ms :: artifacts dl 125ms
+[debug] :: resolution report :: resolve 1079ms :: artifacts dl 53ms
 [debug] 	report for de.heikoseeberger#scala-train$sbt_2.11;2.0.0 default produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sbt_2.11-default.xml
-[debug] 	resolve done (2241ms resolve - 125ms download)
+[debug] 	resolve done (1079ms resolve - 53ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: de.heikoseeberger#scala-train$sources_2.11;2.0.0
 [debug] 	confs: [default]
@@ -1120,6 +1147,20 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalariform#scalariform_2.10;0.1.7 [default->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalariform#scalariform_2.10;0.1.7 [default->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalariform#scalariform_2.10;0.1.7 [default->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#sbt-scoverage;1.1.0 [default->default(compile)]
+[info] Resolving org.scoverage#sbt-scoverage;1.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scoverage#sbt-scoverage;1.1.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scoverage#sbt-scoverage;1.1.0
+[debug] 	found org.scoverage#sbt-scoverage;1.1.0 in sbt-chain
+[debug] 	[1.1.0] org.scoverage#sbt-scoverage;1.1.0
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->default(compile)]
+[info] Resolving org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.10;1.1.0
+[debug] 	found org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.10;1.1.0 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar(src)
@@ -1176,6 +1217,8 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.9!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalariform#sbt-scalariform;1.5.0!sbt-scalariform.jar(src)
 [debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar(src)
-[debug] :: resolution report :: resolve 638ms :: artifacts dl 107ms
+[debug] 	[NOT REQUIRED] org.scoverage#sbt-scoverage;1.1.0!sbt-scoverage.jar(src)
+[debug] 	[NOT REQUIRED] org.scoverage#scalac-scoverage-plugin_2.10;1.1.0!scalac-scoverage-plugin_2.10.jar(src)
+[debug] :: resolution report :: resolve 177ms :: artifacts dl 42ms
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 default produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-default.xml
-[debug] 	resolve done (638ms resolve - 107ms download)
+[debug] 	resolve done (177ms resolve - 42ms download)

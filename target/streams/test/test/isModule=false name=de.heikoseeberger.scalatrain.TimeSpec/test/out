@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0m[32mTimeSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling fromMinutes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return Time(0,10) for 10 minuts[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return Time(1,10) for 70 minutes[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling minor or -[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return 0 for equal Times[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return 60 for Time(1,10) and Time(0,10)[0m[0m
+[0m[[0minfo[0m] [0m[32mCreating a Time[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw an IllegalArgumentException for hours less than 0 or greater equal 24[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw an IllegalArgumentException for minutes less than 0 or greater equal 60[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a correct Time for minutes within [0, 1440)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a correct value for any two Times[0m[0m

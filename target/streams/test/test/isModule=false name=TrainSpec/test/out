@@ -1,0 +1,3 @@
+[0m[[0minfo[0m] [0m[32mTrainSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCreating a train[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw an IllegalArgumentException for an empty kind[0m[0m

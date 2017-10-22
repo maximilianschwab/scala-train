@@ -17,3 +17,9 @@ SbtScalariform.autoImport.preferences := SbtScalariform.autoImport.preferences.v
 
 //Bei Start der REPL Packet importieren
 initialCommands := "import de.heikoseeberger.scalatrain._"
+
+//ScalaTest Bibliothek hinzufügen für Unit Tests
+libraryDependencies ++= List(
+    "org.scalatest" %% "scalatest" % "2.2.5" % "test",
+    "org.scalacheck" %% "scalacheck" % "1.12.4" % "test"
+)
