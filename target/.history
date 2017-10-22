@@ -1,0 +1,11 @@
+compile
+~compile
+exit
+~compile
+val train = new Train()
+val train = new Train("ICE", 123)
+import de.heikoseeberger.scalatrain
+:qutit
+:quit
+exit
+~compile
