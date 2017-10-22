@@ -9,3 +9,6 @@ import de.heikoseeberger.scalatrain
 :quit
 exit
 ~compile
+reload
+coverage
+test

@@ -4,7 +4,7 @@
 		module="scala-train-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171021210454"
+		publication="20171022143600"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -43,6 +43,7 @@
 			<artifact name="global-plugins" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scalariform" name="sbt-scalariform" rev="1.5.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="org.scoverage" name="sbt-scoverage" rev="1.1.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.5"/>
 		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.10.5"/>
 		<override org="org.scala-lang" module="scala-reflect" matcher="exact" rev="2.10.5"/>

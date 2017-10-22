@@ -1,0 +1,23 @@
+Ì#Sun Oct 22 14:37:12 CEST 2017
+alignParameters=false
+formatXml=true
+spacesAroundMultiImports=true
+preserveDanglingCloseParenthesis=false
+spaceInsideBrackets=false
+indentWithTabs=false
+spaceInsideParentheses=false
+multilineScaladocCommentsStartOnFirstLine=false
+alignSingleLineCaseStatements=true
+compactStringConcatenation=false
+placeScaladocAsterisksBeneathSecondAsterisk=false
+indentPackageBlocks=true
+compactControlReadability=false
+spacesWithinPatternBinders=true
+alignSingleLineCaseStatements.maxArrowIndent=100
+doubleIndentClassDeclaration=true
+preserveSpaceBeforeArguments=false
+spaceBeforeColon=false
+alignArguments=false
+rewriteArrowSymbols=false
+indentLocalDefs=false
+indentSpaces=2
