@@ -4,7 +4,7 @@
 		module="scala-train$sbt_2.11"
 		revision="2.0.0"
 		status="integration"
-		publication="20171022203159"
+		publication="20171025141246"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

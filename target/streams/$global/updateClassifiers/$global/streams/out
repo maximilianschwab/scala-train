@@ -10,7 +10,7 @@
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c2d4c6d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55f37c44
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -46,7 +46,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@baf015f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609490c0
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.5
 [debug] 	found org.scalatest#scalatest_2.11;2.2.5 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
@@ -54,7 +54,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bf21132
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66ea57ec
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -63,7 +63,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6be6e268
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e3bb9a3
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -71,7 +71,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->default(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.11;1.12.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42333e75
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@116a03c6
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.12.4
 [debug] 	found org.scalacheck#scalacheck_2.11;1.12.4 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->runtime]
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33ef9d82
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a9a10b
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->runtime]
@@ -89,7 +89,7 @@
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [provided]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->default(compile)]
 [info] Resolving org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17015bcd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34812c8d
 [debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-runtime_2.11;1.1.0
 [debug] 	found org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->runtime]
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->default(compile)]
 [info] Resolving org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47fefb6e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23ee08a
 [debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.11;1.1.0
 [debug] 	found org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->runtime]
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61ad661
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42c2f3e9
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->runtime]
@@ -351,7 +351,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 168ms :: artifacts dl 19ms
+[debug] :: resolution report :: resolve 160ms :: artifacts dl 20ms
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 compile produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-compile.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 runtime produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-runtime.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 test produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-test.xml
@@ -365,4 +365,4 @@
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 docs produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-docs.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 pom produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-pom.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 scala-tool produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-scala-tool.xml
-[debug] 	resolve done (168ms resolve - 19ms download)
+[debug] 	resolve done (160ms resolve - 20ms download)

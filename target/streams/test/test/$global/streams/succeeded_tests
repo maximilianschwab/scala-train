@@ -1,4 +1,5 @@
 #Successful Tests
-#Sun Oct 22 20:32:25 CEST 2017
-de.heikoseeberger.scalatrain.TimeSpec=1508697145013
-TrainSpec=1508697144893
+#Wed Oct 25 21:40:35 CEST 2017
+de.heikoseeberger.scalatrain.TimeSpec=1508960434960
+TrainSpec=1508960434987
+de.heikoseeberger.scalatrain.StationSpec=1508960434505

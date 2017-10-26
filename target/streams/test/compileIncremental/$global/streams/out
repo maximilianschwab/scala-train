@@ -1,22 +1,36 @@
+[0m[[0mdebug[0m] [0mThe de.heikoseeberger.scalatrain.Train source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	copy, <init>, copy$default$3, schedule.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) de.heikoseeberger.scalatrain.Train: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) de.heikoseeberger.scalatrain.Train.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of C:\Users\maxim\Desktop\scala-train\src\test\scala\TrainSpec.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe de.heikoseeberger.scalatrain.Train$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	copy, <init>, copy$default$3, schedule.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) de.heikoseeberger.scalatrain.Train$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) de.heikoseeberger.scalatrain.Train$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of C:\Users\maxim\Desktop\scala-train\src\test\scala\TrainSpec.scala: Set(<init>)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(C:\Users\maxim\Desktop\scala-train\src\test\scala\TimeSpec.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(C:\Users\maxim\Desktop\scala-train\src\test\scala\TrainSpec.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
-[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(de.heikoseeberger.scalatrain.Train,ModifiedNames(regularNames = copy, <init>, copy$default$3, schedule, implicitNames = )), NamesChange(de.heikoseeberger.scalatrain.Train$,ModifiedNames(regularNames = copy, <init>, copy$default$3, schedule, implicitNames = )))[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\test\scala\TimeSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\test\scala\TrainSpec.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\test\scala\TimeSpec.scala)[0m
+[0m[[0mdebug[0m] [0m	external source: Set(C:\Users\maxim\Desktop\scala-train\src\test\scala\TrainSpec.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\test\scala\TrainSpec.scala)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\Users\maxim\Desktop\scala-train\target\scala-2.11\test-classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 14370e6, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3aad013b, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-unchecked[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
@@ -25,7 +39,7 @@
 [0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes;C:\Users\maxim\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	C:\Users\maxim\Desktop\scala-train\target\scala-2.11\test-classes;C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes;C:\Users\maxim\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.5.jar;C:\Users\maxim\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar;C:\Users\maxim\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.2.jar;C:\Users\maxim\.ivy2\cache\org.scalacheck\scalacheck_2.11\jars\scalacheck_2.11-1.12.4.jar;C:\Users\maxim\.ivy2\cache\org.scala-sbt\test-interface\jars\test-interface-1.0.jar;C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-runtime_2.11\jars\scalac-scoverage-runtime_2.11-1.1.0.jar;C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.11\jars\scalac-scoverage-plugin_2.11-1.1.0.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 5.155308985 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.126110145 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

@@ -4,7 +4,7 @@
 		module="scala-train$sources_2.11"
 		revision="2.0.0"
 		status="integration"
-		publication="20171022203201"
+		publication="20171025141248"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
