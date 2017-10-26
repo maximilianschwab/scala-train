@@ -4,7 +4,7 @@
 		module="scala-train_2.11"
 		revision="2.0.0"
 		status="integration"
-		publication="20171022202045"
+		publication="20171026211642"
 	>
 		<description>
 		scala-train
@@ -38,5 +38,7 @@
 		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.1.0" conf="provided->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.5" conf="test->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.12.4" conf="test->default(compile)"/>
+		<dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.3" conf="compile->default(compile)"/>
+		<dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

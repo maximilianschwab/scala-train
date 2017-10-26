@@ -30,5 +30,7 @@
     <orderEntry type="library" scope="PROVIDED" name="SBT: org.scoverage:scalac-scoverage-runtime_2.11:1.1.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-sbt:test-interface:1.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalacheck:scalacheck_2.11:1.12.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-api:2.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-core:2.3:jar" level="project" />
   </component>
 </module>

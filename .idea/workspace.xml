@@ -2,30 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d0dcd9-bff2-46b3-800e-acfab9d8b5c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/JourneyPlanner.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Station.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Stop.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/StationSpec.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$34b7a2ff97d12302d0f4$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$34b7a2ff97d12302d0f4$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$34b7a2ff97d12302d0f4$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$34b7a2ff97d12302d0f4$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$34b7a2ff97d12302d0f4$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$34b7a2ff97d12302d0f4.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$34b7a2ff97d12302d0f4.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_logging_log4j_log4j_api_2_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_logging_log4j_log4j_core_2_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Logging.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$38204b29c5e38b5c9950$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$38204b29c5e38b5c9950$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$38204b29c5e38b5c9950.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$38204b29c5e38b5c9950.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Time$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Time$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Time.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Time.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$$anonfun$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/de/heikoseeberger/scalatrain/Train.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec$$anonfun$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/TrainSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/scalariformFormat/$global/streams/scalariform/in-cache" afterPath="$PROJECT_DIR$/target/streams/compile/scalariformFormat/$global/streams/scalariform/in-cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/scalariformFormat/$global/streams/scalariform/out-cache" afterPath="$PROJECT_DIR$/target/streams/compile/scalariformFormat/$global/streams/scalariform/out-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/scalariformFormat/$global/streams/scalariform/in-cache" afterPath="$PROJECT_DIR$/target/streams/test/scalariformFormat/$global/streams/scalariform/in-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/scalariformFormat/$global/streams/scalariform/out-cache" afterPath="$PROJECT_DIR$/target/streams/test/scalariformFormat/$global/streams/scalariform/out-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/scala-train.iml" afterPath="$PROJECT_DIR$/.idea/modules/scala-train.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/JourneyPlanner.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/JourneyPlanner.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Stop.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Stop.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Time.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Time.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Train.scala" afterPath="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Train.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/TrainSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/TrainSpec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
@@ -33,6 +41,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train$sbt_2.11/2.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train$sbt_2.11/2.0.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train$sources_2.11/2.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train$sources_2.11/2.0.0/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train$sources_2.11/2.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train$sources_2.11/2.0.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train_2.11/2.0.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train_2.11/2.0.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train_2.11/2.0.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/de.heikoseeberger/scala-train_2.11/2.0.0/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sbt_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sbt_2.11-default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-compile.xml" />
@@ -47,21 +57,34 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train$sources_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/de.heikoseeberger-scala-train_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/console/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/console/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/fullClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/scalariformFormat/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/scalariformFormat/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TrainSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/TrainSpec.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/de.heikoseeberger.scalatrain.TimeSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/de.heikoseeberger.scalatrain.TimeSpec.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -100,8 +123,8 @@
       <file leaf-file-name="Train.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Train.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -111,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/JourneyPlanner.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="130" lean-forward="false" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -121,17 +144,37 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Stop.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Station.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Station.scala">
+      <file leaf-file-name="TrainSpec.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/TrainSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logging.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Logging.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Time.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Time.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="120" lean-forward="false" selection-start-line="26" selection-start-column="120" selection-end-line="26" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -161,15 +204,16 @@
         <option value="$PROJECT_DIR$/src/main/scala/Train.scala" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/scalaTest.sc" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Time.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/TimeSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/StationSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Station.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Stop.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/TrainSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Time.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Train.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/JourneyPlanner.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Logging.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/TrainSpec.scala" />
       </list>
     </option>
   </component>
@@ -398,7 +442,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1508933568994" />
+    <option name="lastUpdateTimestamp" value="1509046599889" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -446,14 +490,11 @@
       <workItem from="1508931740167" duration="1994000" />
       <workItem from="1508959926767" duration="2872000" />
       <workItem from="1509003072318" duration="83000" />
-      <workItem from="1509029466023" duration="4885000" />
+      <workItem from="1509029466023" duration="12039000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TimeSpec - 2017.10.22 at 19h 29m 06s.xml">
-      <configuration name="TimeSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TimeSpec - 2017.10.22 at 19h 29m 16s.xml">
       <configuration name="TimeSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -481,9 +522,12 @@
     <history-entry file="TimeSpec - 2017.10.22 at 20h 32m 40s.xml">
       <configuration name="TimeSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TimeSpec - 2017.10.26 at 21h 41m 39s.xml">
+      <configuration name="TimeSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21716000" />
+    <option name="totallyTimeSpent" value="28870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,15 +544,16 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847682" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13293052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21148036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -520,7 +565,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -537,16 +581,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/StationSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <marker date="1508933636165" expanded="true" signature="237:300" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Train.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -567,9 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="83" lean-forward="false" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +626,7 @@
         <state relative-caret-position="442">
           <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
-            <element signature="e#38#63#0" expanded="true" />
+            <element signature="e#38#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -645,6 +677,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +686,7 @@
         <state relative-caret-position="578">
           <caret line="34" column="69" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
           <folding>
-            <element signature="e#38#63#0" expanded="true" />
+            <element signature="e#38#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,6 +737,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,9 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +754,7 @@
         <state relative-caret-position="1071">
           <caret line="63" column="65" lean-forward="false" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
           <folding>
-            <element signature="e#38#63#0" expanded="true" />
+            <element signature="e#38#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -755,6 +787,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,6 +812,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -810,6 +844,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -833,6 +868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,46 +897,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalaTest.sc" />
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Time.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/TimeSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding>
-            <element signature="e#38#63#0" expanded="true" />
+            <element signature="e#38#63#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/TrainSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="83" lean-forward="false" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,18 +917,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/JourneyPlanner.scala">
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="130" lean-forward="false" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
+        <state relative-caret-position="17">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Train.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="442">
+          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Station.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -933,15 +944,47 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Stop.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Station.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Time.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="442">
+          <caret line="26" column="120" lean-forward="false" selection-start-line="26" selection-start-column="120" selection-end-line="26" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/JourneyPlanner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Logging.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/de/heikoseeberger/scalatrain/Train.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/TrainSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -10,13 +10,29 @@
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55f37c44
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33325224
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)]
+[info] Resolving org.apache.logging.log4j#log4j-api;2.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2114ea17
+[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.3
+[debug] 	found org.apache.logging.log4j#log4j-api;2.3 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)]
+[info] Resolving org.apache.logging.log4j#log4j-core;2.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67cfa6b1
+[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.3
+[debug] 	found org.apache.logging.log4j#log4j-core;2.3 in sbt-chain
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [runtime]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [compile]
@@ -24,10 +40,26 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [test]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [runtime]
@@ -36,17 +68,41 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609490c0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@738e3ab9
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.5
 [debug] 	found org.scalatest#scalatest_2.11;2.2.5 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
@@ -54,7 +110,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66ea57ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bfc850
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -63,7 +119,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e3bb9a3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4352b05b
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -71,7 +127,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->default(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.11;1.12.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@116a03c6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@599fb6d7
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.12.4
 [debug] 	found org.scalacheck#scalacheck_2.11;1.12.4 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->runtime]
@@ -79,7 +135,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalacheck#scalacheck_2.11;1.12.4 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a9a10b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cd88adc
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-sbt#test-interface;1.0 [test->runtime]
@@ -89,7 +145,7 @@
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [provided]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->default(compile)]
 [info] Resolving org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34812c8d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42eadee1
 [debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-runtime_2.11;1.1.0
 [debug] 	found org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->runtime]
@@ -106,7 +162,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.4 [provided->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->default(compile)]
 [info] Resolving org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23ee08a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70bf51dd
 [debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.11;1.1.0
 [debug] 	found org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->runtime]
@@ -114,7 +170,7 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-plugin_2.11;1.1.0 [provided->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42c2f3e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41ec4f45
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->runtime]
@@ -129,6 +185,14 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->master]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [optional]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [provided]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [provided->default(compile)]
@@ -152,6 +216,14 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile-internal->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile-internal->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [compile-internal->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [compile-internal->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scoverage#scalac-scoverage-runtime_2.11;1.1.0 [compile-internal->compile]
@@ -172,15 +244,39 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->master]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [optional]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [test-internal]
 [debug] == resolving dependencies for de.heikoseeberger#scala-train$sources_2.11;2.0.0 [test]
@@ -190,14 +286,38 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [compile->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [compile->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [runtime->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [runtime->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test->compile]
@@ -242,6 +362,14 @@
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test-internal->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test-internal->compile]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scala-lang#scala-library;2.11.7 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-api;2.3 [test-internal->master]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test-internal->runtime]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test-internal->compile]
+[debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.apache.logging.log4j#log4j-core;2.3 [test-internal->master]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->default(compile)]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->runtime]
 [debug] == resolving dependencies de.heikoseeberger#scala-train$sources_2.11;2.0.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->compile]
@@ -329,6 +457,10 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.3!log4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.3!log4j-api.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.3!log4j-core.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.3!log4j-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
@@ -351,7 +483,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 160ms :: artifacts dl 20ms
+[debug] :: resolution report :: resolve 592ms :: artifacts dl 43ms
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 compile produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-compile.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 runtime produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-runtime.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 test produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-test.xml
@@ -365,4 +497,4 @@
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 docs produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-docs.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 pom produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-pom.xml
 [debug] 	report for de.heikoseeberger#scala-train$sources_2.11;2.0.0 scala-tool produced in C:\Users\maxim\Desktop\scala-train\target\resolution-cache\reports\de.heikoseeberger-scala-train$sources_2.11-scala-tool.xml
-[debug] 	resolve done (160ms resolve - 20ms download)
+[debug] 	resolve done (592ms resolve - 43ms download)

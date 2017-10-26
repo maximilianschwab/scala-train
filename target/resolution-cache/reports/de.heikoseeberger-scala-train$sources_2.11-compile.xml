@@ -7,8 +7,36 @@
 		revision="2.0.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171025141248"/>
+		date="20171026213638"/>
 	<dependencies>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.3" status="release" pubdate="20150510231849" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="27651" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.pom"/>
+				<caller organisation="de.heikoseeberger" name="scala-train$sources_2.11" conf="compile" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.0.0"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="827024" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar"/>
+					</artifact>
+					<artifact name="log4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="701956" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\srcs\log4j-core-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.3" status="release" pubdate="20150510231255" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="23855" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.pom"/>
+				<caller organisation="de.heikoseeberger" name="scala-train$sources_2.11" conf="compile" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.0.0"/>
+				<artifacts>
+					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130499" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\srcs\log4j-api-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-sources.jar"/>
+					</artifact>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="135903" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.11.7" status="release" pubdate="20150622221702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>

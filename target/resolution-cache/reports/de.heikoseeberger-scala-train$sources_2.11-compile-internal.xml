@@ -7,10 +7,10 @@
 		revision="2.0.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171025141248"/>
+		date="20171026213638"/>
 	<dependencies>
 		<module organisation="org.scoverage" name="scalac-scoverage-plugin_2.11">
-			<revision name="1.1.0" status="release" pubdate="20150426215318" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+			<revision name="1.1.0" status="release" pubdate="20150426215318" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3959" time="0" location="C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.11/1.1.0/scalac-scoverage-plugin_2.11-1.1.0.pom"/>
 				<caller organisation="de.heikoseeberger" name="scala-train$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="2.0.0"/>
@@ -25,7 +25,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.1" status="release" pubdate="20140416112108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+			<revision name="1.0.1" status="release" pubdate="20140416112108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\maxim\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.pom"/>
 				<caller organisation="de.heikoseeberger" name="scala-train$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="2.0.0"/>
@@ -40,7 +40,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scoverage" name="scalac-scoverage-runtime_2.11">
-			<revision name="1.1.0" status="release" pubdate="20150426215306" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="1.1.0" status="release" pubdate="20150426215306" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2987" time="0" location="C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-runtime_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-runtime_2.11/1.1.0/scalac-scoverage-runtime_2.11-1.1.0.pom"/>
 				<caller organisation="de.heikoseeberger" name="scala-train$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="2.0.0"/>
@@ -73,6 +73,34 @@
 					</artifact>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="C:\Users\maxim\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.3" status="release" pubdate="20150510231849" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="27651" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.pom"/>
+				<caller organisation="de.heikoseeberger" name="scala-train$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.0.0"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="827024" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar"/>
+					</artifact>
+					<artifact name="log4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="701956" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\srcs\log4j-core-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.3" status="release" pubdate="20150510231255" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="23855" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.pom"/>
+				<caller organisation="de.heikoseeberger" name="scala-train$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.0.0"/>
+				<artifacts>
+					<artifact name="log4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130499" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\srcs\log4j-api-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-sources.jar"/>
+					</artifact>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="135903" time="0" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

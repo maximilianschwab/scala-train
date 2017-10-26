@@ -7,10 +7,10 @@
 		revision="2.0.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171022202045"/>
+		date="20171026211642"/>
 	<dependencies>
 		<module organisation="org.scoverage" name="scalac-scoverage-plugin_2.11">
-			<revision name="1.1.0" status="release" pubdate="20150426215318" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+			<revision name="1.1.0" status="release" pubdate="20150426215318" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3959" time="0" location="C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-plugin_2.11/1.1.0/scalac-scoverage-plugin_2.11-1.1.0.pom"/>
 				<caller organisation="de.heikoseeberger" name="scala-train_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="2.0.0"/>
@@ -30,7 +30,7 @@
 				<artifacts>
 				</artifacts>
 			</revision>
-			<revision name="1.0.2" status="release" pubdate="20140520101040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="1.0.2" status="release" pubdate="20140520101040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\maxim\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.5"/>
@@ -43,7 +43,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scoverage" name="scalac-scoverage-runtime_2.11">
-			<revision name="1.1.0" status="release" pubdate="20150426215306" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+			<revision name="1.1.0" status="release" pubdate="20150426215306" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2987" time="0" location="C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-runtime_2.11\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scoverage/scalac-scoverage-runtime_2.11/1.1.0/scalac-scoverage-runtime_2.11-1.1.0.pom"/>
 				<caller organisation="de.heikoseeberger" name="scala-train_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="2.0.0"/>
@@ -102,7 +102,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalacheck" name="scalacheck_2.11">
-			<revision name="1.12.4" status="release" pubdate="20150615142701" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+			<revision name="1.12.4" status="release" pubdate="20150615142701" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2831" time="0" location="C:\Users\maxim\.ivy2\cache\org.scalacheck\scalacheck_2.11\ivy-1.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.4/scalacheck_2.11-1.12.4.pom"/>
 				<caller organisation="de.heikoseeberger" name="scala-train_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.12.4" rev-constraint-default="1.12.4" rev-constraint-dynamic="1.12.4" callerrev="2.0.0"/>
@@ -114,7 +114,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalatest" name="scalatest_2.11">
-			<revision name="2.2.5" status="release" pubdate="20150514112034" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="2.2.5" status="release" pubdate="20150514112034" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="5022" time="0" location="C:\Users\maxim\.ivy2\cache\org.scalatest\scalatest_2.11\ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.pom"/>
 				<caller organisation="de.heikoseeberger" name="scala-train_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="2.0.0"/>
@@ -126,7 +126,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="test-interface">
-			<revision name="1.0" status="release" pubdate="20130628154435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="1.0" status="release" pubdate="20130628154435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2580" time="0" location="C:\Users\maxim\.ivy2\cache\org.scala-sbt\test-interface\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/maxim/.sbt/preloaded/org.scala-sbt/test-interface/1.0/ivys/ivy.xml"/>
 				<caller organisation="org.scalacheck" name="scalacheck_2.11" conf="default, compile, runtime, master" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.12.4"/>
@@ -138,13 +138,35 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.11.2" status="release" pubdate="20140723083911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="2.11.2" status="release" pubdate="20140723083911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\maxim\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="2.2.5"/>
 				<artifacts>
 					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4391629" time="0" location="C:\Users\maxim\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.3" status="release" pubdate="20150510231849" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="successful" details="" size="15743" time="157" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.3.xml" searched="true" original-local-location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.pom"/>
+				<caller organisation="de.heikoseeberger" name="scala-train_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.0.0"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="successful" details="" size="827024" time="409" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.3" status="release" pubdate="20150510231255" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="successful" details="" size="8117" time="203" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.3.xml" searched="true" original-local-location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.pom"/>
+				<caller organisation="de.heikoseeberger" name="scala-train_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.0.0"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="successful" details="" size="135903" time="235" location="C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

@@ -4,7 +4,7 @@
 		module="scala-train$sources_2.11"
 		revision="2.0.0"
 		status="integration"
-		publication="20171025141248"
+		publication="20171026213638"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -26,6 +26,12 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.7/">
 			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="log4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="log4j-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.5" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="scalatest_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
