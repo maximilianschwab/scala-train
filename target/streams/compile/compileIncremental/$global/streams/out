@@ -1,22 +1,23 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Time.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set(C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo$.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Train$$anonfun$stations$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo$InterCity$.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo$InterCityExpress$.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo$InterCityExpress.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Train$$anonfun$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Train$.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\JourneyPlanner$$anonfun$departuresAt$1$$anonfun$apply$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo$RegionalExpress.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Time$$anonfun$isIncreasing$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Time$.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\JourneyPlanner$$anonfun$departuresAt$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\JourneyPlanner$$anonfun$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Time.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\JourneyPlanner.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Logging.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Train.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Time$$anonfun$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\JourneyPlanner$$anonfun$stations$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\JourneyPlanner$$anonfun$departuresAt$1$$anonfun$apply$2.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\JourneyPlanner$$anonfun$trains$1.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo$InterCity.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\TrainInfo$RegionalExpress$.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Train$$anonfun$3.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Logging$class.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Train$$anonfun$2.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Time$$anonfun$2.class, C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes\de\heikoseeberger\scalatrain\Logger.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Time.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Train.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Time.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Logging.scala)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Time.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 2 Scala sources to C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Logging.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Train.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala, C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Time.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Scala sources to C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 1d1e5555, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 41d93695, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-unchecked[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
@@ -25,13 +26,13 @@
 [0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes;C:\Users\maxim\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	C:\Users\maxim\Desktop\scala-train\target\scala-2.11\classes;C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar;C:\Users\maxim\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.3.jar;C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-runtime_2.11\jars\scalac-scoverage-runtime_2.11-1.1.0.jar;C:\Users\maxim\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.11\jars\scalac-scoverage-plugin_2.11-1.1.0.jar;C:\Users\maxim\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 6.11843762 s[0m
-[0m[[0mdebug[0m] [0mInvalidating C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala)[0m
-[0m[[0mdebug[0m] [0mThe C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\JourneyPlanner.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	isShortTrip.[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.970500161 s[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala)[0m
+[0m[[0mdebug[0m] [0mThe C:\Users\maxim\Desktop\scala-train\src\main\scala\de\heikoseeberger\scalatrain\Labeled.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	StationLabeled.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
