@@ -1,5 +1,7 @@
 package de.heikoseeberger.scalatrain
 
+import de.heikoseeberger.scalatrain.TrainInfo.{ InterCity, InterCityExpress, RegionalExpress }
+
 import scala.collection.immutable.Seq
 //Primärkonstruktor und definition der Felder
 case class Train(info: TrainInfo, schedule: Seq[Stop]) {
@@ -15,6 +17,13 @@ case class Train(info: TrainInfo, schedule: Seq[Stop]) {
   //def station():Seq[Station] = schedule.map((stop:Stop)=>stop.station)
   //OR
   def stations(): Seq[Station] = schedule.map(_.station)
+
+  override def toString: String = info match {
+    case InterCityExpress(number, true) => s"ICE $number (WIFI)"
+    case InterCityExpress(number, _)    => s"ICE $number"
+    case InterCity(number)              => s"IC $number"
+    case RegionalExpress(number)        => s"RE $number"
+  }
 }
 
 //Abstrakte Klasse

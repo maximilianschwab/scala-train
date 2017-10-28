@@ -1,4 +1,4 @@
-import org.scalatest.{Matchers, WordSpec}
+import org.scalatest.{ Matchers, WordSpec }
 
 class TrainSpec extends WordSpec with Matchers {
   "Creating a train" should {

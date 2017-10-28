@@ -24,5 +24,9 @@ object Time {
     new Time(minutes / 60, minutes % 60)
   }
 
-  def isIncreasing(times:Seq[Time]):Boolean = times.sliding(2).forall(times => times.size < 2 || times.head < times.last)
+  //def isIncreasing(times: Seq[Time]): Boolean = times.sliding(2).forall(times => times.size < 2 || times.head < times.last)
+  def isIncreasing(times: Seq[Time]): Boolean = times.sliding(2).forall {
+    case Seq(t1, t2) => t1 < t2
+    case _           => true
+  }
 }

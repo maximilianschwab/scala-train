@@ -1,14 +1,14 @@
 package de.heikoseeberger.scalatrain
 
-import org.apache.logging.log4j.{Logger => Log4jLogger, LogManager}
+import org.apache.logging.log4j.{ Logger => Log4jLogger, LogManager }
 
 class Logger private[scalatrain] (underlying: Log4jLogger) {
-  def info(message: => Any):Unit = if(underlying.isInfoEnabled) underlying.info(message)
-  def debug(message: => Any):Unit = if(underlying.isDebugEnabled()) underlying.debug(message)
+  def info(message: => Any): Unit = if (underlying.isInfoEnabled) underlying.info(message)
+  def debug(message: => Any): Unit = if (underlying.isDebugEnabled()) underlying.debug(message)
   //....
 
 }
 
-trait Logging{
+trait Logging {
   protected val logger: Logger = new Logger(LogManager.getLogger(getClass.getName))
 }

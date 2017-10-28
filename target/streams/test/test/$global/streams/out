@@ -1,16 +1,16 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(de.heikoseeberger.scalatrain.StationSpec, org.scalatest.tools.Framework$$anon$1@6f16c27, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(de.heikoseeberger.scalatrain.TimeSpec, org.scalatest.tools.Framework$$anon$1@6f16c27, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(TrainSpec, org.scalatest.tools.Framework$$anon$1@6f16c27, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(TrainSpec, org.scalatest.tools.Framework$$anon$1@73f0240f, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(de.heikoseeberger.scalatrain.TimeSpec, org.scalatest.tools.Framework$$anon$1@73f0240f, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(de.heikoseeberger.scalatrain.StationSpec, org.scalatest.tools.Framework$$anon$1@73f0240f, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0mScalaCheck[0m
 [0m[[0minfo[0m] [0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 819 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 792 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 10[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 3, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0minfo[0m] [0mPassed: Total 10, Failed 0, Errors 0, Passed 10[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	TrainSpec[0m
-[0m[[0mdebug[0m] [0m	de.heikoseeberger.scalatrain.TimeSpec[0m
 [0m[[0mdebug[0m] [0m	de.heikoseeberger.scalatrain.StationSpec[0m
+[0m[[0mdebug[0m] [0m	de.heikoseeberger.scalatrain.TimeSpec[0m
+[0m[[0mdebug[0m] [0m	TrainSpec[0m
