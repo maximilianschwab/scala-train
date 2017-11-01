@@ -19,6 +19,16 @@ case class Time(hours: Int = 0, minutes: Int = 0) extends Ordered[Time] {
 
 //Companion object der Klasse Time und Sigleton Object
 object Time {
+  val timePattern = """(\d\d):(\d\d)""".r
+  implicit def apply(s: String): Time = {
+    try {
+      val timePattern(hours, minutes) = s
+      Time(hours.toInt,minutes.toInt)
+    } catch{
+      case _ : MatchError => throw new IllegalArgumentException()
+    }
+  }
+
   //Fabrikmethode (wäre in Java als static Methode zu definieren)
   def fromMinutes(minutes: Int): Time = {
     new Time(minutes / 60, minutes % 60)

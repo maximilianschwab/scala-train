@@ -30,3 +30,4 @@ exit
 test
 ~compile
 test
+run scalaCity slickMountain 06:30
